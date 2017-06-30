@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fresca|Lobster|Cookie" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+
+    
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sumit Kapoor</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about" >About</a>
+                    </li>
+                    <li>
+                        <a href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" >
+
+        <div class="row" >
+            <div class="col-lg-12"><img src="abc.jpg" style="width: 100%; height: 500px;"></div>
+            <div class="col-lg-12 text-center" >
+                <h1  style="font-size: 50px">Sumit Kapoor</h1>
+            </div>
+        </div>  
+        <!-- /.row -->
+    <div class="row" id="about" style="margin-bottom: 2%">
+    <div class="col-lg-12" style="margin-top: 5%">
+    <center><img src="pic.jpg" style="border:1px solid; border-radius: 120px;margin-bottom: 2%" ></center>
+    <p class="font_2" style="font-size: 30px">I am a Computer Science graduate from NIT Arunachal Pradesh. I am a web developer. I have designed my college official website. Also I have participated and won the award for creating website to IEEE section in my college. I am a technology loving person and I am not afraid to get my hands dirty on working in new technologies.                     </p>
+    </div>
+    </div>
+    <!-- end of Div for About -->
+    <div class="row" id="project">
+    <div class="col-lg-12 text-center" style="margin-top: 5%">
+    <h2 style="margin-bottom: 4%">PROJECTS</h2>
+    <div id="overlay-id" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <h3>Generation of AVK(Automatic Variable Key)</h3>
+  <p class="font_2" style="font-size: 25px">The objective was to develop a new approach to generate automatic key and to compare it with existing techniques.</p>
+  </div>
+    </div>
+    <div id="overlay-id1" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <h3 >Community Detection in Social Network.</h3>
+  <p class="font_2" style="font-size: 25px">
+The objective was to understand various interactions among the group of persons in a community and with others in a social network graph using Python. 
+</p>
+</div>
+    </div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()" style="margin-right: 50px"><button type="button" class="btn btn-success">4th Year Project</button></span>
+<span onclick="openNav1()"><button type="button" class="btn btn-success">3rd Year Project</button></span>
+    
+    </div>
+    </div>
+    <!-- end of Div for Project -->
+    <div class="row">
+    <div class="col-lg-12 text-center" id="contact" >
+    <h2 style="margin-top: 4%">CONTACT</h2>
+    <p class="font_1">Feel free to write me at</p>
+    <p class="font_1">SUMTSOM@GMAIL.COM</p>
+    <p class="font_1">You can also find me at</p>
+    <ul class="list-inline banner-social-buttons col-lg-12"> 
+        <li style="margin-right: 5px">
+            <a href=""><i class="fa fa-facebook-square" style="font-size:36px"></i>
+            </a>
+        <li>
+            <a href=""><i class="fa fa-twitter-square" style="font-size:36px;"></i>
+            </a>    
+        </li>
+        <li>
+            <a href=""><i class="fa fa-google-plus-square" style="font-size:36px"></i>  
+            </a>    
+        </li>
+    </ul>
+    </div>
+    </div>
+    <!-- end of Div for Contact -->
+    
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
